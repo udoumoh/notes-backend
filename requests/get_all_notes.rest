@@ -2,9 +2,12 @@ POST http://localhost:3004/api/notes
 Content-Type: application/json
 
 {
-    "content": "VS code rest client is pretty good",
+    "content": "lol",
     "important": true
 }
 
 ###
 GET http://localhost:3004/api/notes
+
+###
+DELETE http://localhost:3004/api/notes/631270d9e3be93f22909017d
