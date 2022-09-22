@@ -11,3 +11,12 @@ GET http://localhost:3004/api/notes
 
 ###
 DELETE http://localhost:3004/api/notes/631270d9e3be93f22909017d
+
+###
+POST https://test-hms.herokuapp.com/api/auth/signin
+Content-Type: application/json
+
+{
+    "usernameOrEmail": "ibukunod@yahoo.com",
+    "password": "1801486cu"
+}
