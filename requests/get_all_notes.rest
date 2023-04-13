@@ -6,10 +6,10 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3004/api/notes
+GET http://localhost:8080/api/notes
 
 ###
-DELETE http://localhost:3004/api/notes/631270d9e3be93f22909017d
+DELETE http://localhost:8080/api/notes/630e2fd45ec90471cce28125
 
 ###
 POST https://test-hms.herokuapp.com/api/auth/signin
